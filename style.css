@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Poppins:wght@200;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    background-color: #808080;
+    opacity: 0.9;
+}
+
+body{
+
+    background-image: url(food.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    background-attachment: fixed;
+}
+nav{
+   display: flex;
+   margin-right: 10px;
+   font-family: 'Poppins', sans-serif;
+}
+nav li{
+    list-style: none;
+    padding: 0px 10px;
+}
+nav li a{
+    text-decoration: none;
+    color:#ffffff;
+}
+nav li a:hover{
+    color:#ff0000;
+    text-decoration: underline;
+    transition: 0.5s;
+
+}
+.btn1{
+    border-radius: 10px;
+    border:none;
+    background-color: #ffd700;
+    transition: 0.3s;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    padding:10px 10px;
+    margin-right: 10px;
+    
+}
+.btn1:hover{
+    background-color: #ff0000;
+}
+
+.logo{
+    font-size: bold;
+    color: #00ffff;
+    cursor: pointer;
+    font-family: 'Lilita One', cursive;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.logo:hover{
+    color: #ff0000;
+}
+.slogan{
+    font-size: 40px;
+    padding-top: 110px;
+    color:#f0f8ff;
+    margin-top: 100px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.btn2 button{
+    border: none;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #ff0000;
+    cursor: pointer;
+}
+.btn2 button:hover{
+   background-color: #f0f8ff;
+}
+
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
